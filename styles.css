@@ -4,7 +4,7 @@
     --accent-color: #e9ecef;
 }
 
-    {
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -130,9 +130,10 @@ input[type=“text”]:hover {
 .navbar-nav .nav-link:hover {
     color: #e9ecef;
     background-color: var(--secondary-color);
+}
 
 
-    @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
         .container {
             max-width: 80%;
         }
