@@ -4,7 +4,7 @@
     --accent-color: #e9ecef;
 }
 
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
