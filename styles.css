@@ -13,7 +13,7 @@
 body {
     background: linear-gradient(to right, #f8f9fa, #e9ecef);
     color: #212529;
-    font-family: ‘Roboto’, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -47,7 +47,7 @@ body {
 }
 
 h1 {
-    font-family: ‘Montserrat’, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2.4rem;
     color: #fff;
     margin-bottom: 20px;
@@ -132,65 +132,64 @@ input[type=“text”]:hover {
     background-color: var(--secondary-color);
 }
 
-
 @media screen and (max-width: 1024px) {
-        .container {
-            max-width: 80%;
-        }
-
-        .header {
-            padding: 1.5rem 1rem;
-        }
-
-        h1 {
-            font-size: 2rem;
-        }
-
-        input[type=“text”] {
-            width: 60%;
-        }
-
+    .container {
+        max-width: 80%;
     }
 
-    @media screen and (max-width: 768px) {
-        .container {
-            max-width: 90%;
-        }
-
-        .header {
-            padding: 1rem 0.5rem;
-        }
-
-        h1 {
-            font-size: 1.6rem;
-        }
-
-        input[type=“text”] {
-            width: 80%;
-        }
-
-        .navbar-nav {
-            flex-direction: column;
-            margin: 10px 0;
-        }
-
-        .navbar-nav .nav-link {
-            margin: 5px 0;
-        }
-
+    .header {
+        padding: 1.5rem 1rem;
     }
 
-    @keyframes header-animation {
-        0% {
-            background-color: var(--primary-color);
-        }
-
-        50% {
-            background-color: var(--secondary-color);
-        }
-
-        100% {
-            background-color: var(--primary-color);
-        }
-
+    h1 {
+        font-size: 2rem;
     }
+
+    input[type="text"] {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .header {
+        padding: 1rem 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 5px 0;
+    }
+
+}
+
+@keyframes header-animation {
+    0% {
+        background-color: var(--primary-color);
+    }
+
+    50% {
+        background-color: var(--secondary-color);
+    }
+
+    100% {
+        background-color: var(--primary-color);
+    }
+
+}
